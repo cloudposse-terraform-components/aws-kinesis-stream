@@ -8,7 +8,6 @@ tags:
 # Component: `kinesis-stream`
 
 This component is responsible for provisioning an Amazon Kinesis data stream.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -52,7 +51,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -115,12 +117,17 @@ No resources.
 | <a name="output_name"></a> [name](#output\_name) | Name of the Kinesis stream. |
 | <a name="output_shard_count"></a> [shard\_count](#output\_shard\_count) | Number of shards provisioned. |
 | <a name="output_stream_arn"></a> [stream\_arn](#output\_stream\_arn) | ARN of the the Kinesis stream. |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/kinesis-stream) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-kinesis-stream&utm_content=)
+
